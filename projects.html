@@ -6,25 +6,67 @@
         <title>David Edwards Projects</title>
         <link href="./Resources/CSS/styles.css" type="text/css" rel="stylesheet">
     </head>
-</html>
 
 <body>
 
 <!--header-->
 <header>
-    <div class="header">
+    <div class="gridcontainerhome">
        <div class="box1"><h2>David Edwards</h2></div>
-       <nav class="box2" >
-          
-               <a href="home.html">Home</a>
-               <a href="projects.html">Projects</a>
-               <a href="skills.html">Skills</a>
-               <a href="contact.html">Contact</a>
-            
-       </nav>
-      
-      
+       <nav  class="box2">
+          <ul>
+               <li><a href="home.html">Home</a></li>
+               <li id="currentpage"><a href="projects.html">Projects</a></li>
+               <li><a href="skills.html">Skills</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul> 
+       </nav>   
     </div>
    </header>
 
+<!--Projects--> 
+<main  >
+     <div class="myprojectscontainer">
+           <div class="projectsboxleft"> 
+            <h2 id="title">Some of my Projects...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+                velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto 
+                odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                dolore magna aliquam erat volutpat. Ut wisi</p> >
+            </div>
+
+            <div class="projectsboxright">
+                                 <div class = "imagetoptour">
+                        <img id= "imagetoptour" src="Resources/Images/Top Tour Golf.png">
+                        <h4>Top Tour Golf</h4>
+                    </div>
+
+                    <div class ="imagevine">
+                        <img id= "imagevine" src="Resources/Images/Vine.png">
+                        <h4>Vine Baby Clothes</h4>
+                    </div>
+
+                    <div class="image">
+                        <img id= "image"src="Resources/Images/Flutterby.png">
+                        <h4>Flutterby Fashions</h4>
+                    </div>
+                </div>
+
+        </div>
+        <div class="TNninedesigncontainer">
+            <div id="tnbox">
+            <img id= "tnimage" src="Resources/Images/LogoTN9 Logos.png">
+            </div>
+            <div id="tntext">
+            <a href="https://tnninedesign.co.uk/" target="-_blank">www.tnninedesign.co.uk</a>
+            </div>
+        </div>
+
+</main>
+
 </body>
+</html>
