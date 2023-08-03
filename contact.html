@@ -6,25 +6,44 @@
         <title>David Edwards Contact</title>
         <link href="./Resources/CSS/styles.css" type="text/css" rel="stylesheet">
     </head>
-</html>
+
 
 <body>
 
 <!--header-->
 <header>
-    <div class="header">
+    <div class="gridcontainerhome">
        <div class="box1"><h2>David Edwards</h2></div>
-       <nav class="box2" >
-          
-               <a href="home.html">Home</a>
-               <a href="projects.html">Projects</a>
-               <a href="skills.html">Skills</a>
-               <a href="contact.html">Contact</a>
-            
-       </nav>
-      
-      
+       <nav  class="box2">
+          <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="projects.html">Projects</a></li>
+               <li><a href="skills.html">Skills</a></li>
+               <li id="currentpage"><a href="contact.html">Contact</a></li>
+           </ul> 
+       </nav>   
     </div>
    </header>
 
+   <main>
+    <div class="contact">
+        <div id="contacttitle">Contact: </div>
+
+        <div class="contactdetails">
+        <div id="contactboxa"><img id="socialimagea" src="Resources/Images/Email Address.svg"><a href = "mailto: david@tnninedesign.co.uk">david@tnninedesign.co.uk</a></div>
+        <div id="contactboxb"><img id="socialimagea" src="Resources/Images/Phone Number.svg">01732 357809</div>
+        </div>
+
+        <div class="socialbox">
+        <img id="socialimageb" src="Resources/Images/Facebook.svg">       
+        <img id="socialimageb" src="Resources/Images/Instagram.svg">
+        <img id="socialimageb" src="Resources/Images/Linked In.svg">
+        </div>
+       
+    <div class="btnbox" id="btn">
+        <a class="btn" href="https://tnninedesign.co.uk/contact-page/" target="-_blank">Get in touch<img id="arrow" src="Resources/Images/Arrow.svg"></a>
+      </div>
+
+   </main>
 </body>
+</html>

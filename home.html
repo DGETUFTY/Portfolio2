@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
-</html>
+
 
 <body>
 
@@ -18,23 +18,24 @@
 <header>
  <div class="gridcontainerhome">
     <div class="box1"><h2>David Edwards</h2></div>
-    <nav class="box2" >
-       
-            <a href="home.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="contact.html">Contact</a>
-         
+    <nav  class="box2">
+       <ul>
+            <li id="currentpage"><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> 
     </nav>   
  </div>
 </header>
 
-<!--Hero-->
-<div  id="heroimage">
+<!--Hero -->
+<main>
+
 <div class="gridcontainerhero">
     
     <div class="herobox1">
-        <h2>A little bit about me...</h2>
+        <h2 id="title">A little bit about me...</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
@@ -44,8 +45,11 @@
         Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
          dolore magna aliquam erat volutpat. Ut wisi</p> 
     </div>
-    <div class="herobox2"> <img id="myimage" src="Resources/Images/me BW.png"></div>
-</div>
+    <div class="herobox2"> <img id="myimage" src="Resources/Images/MeAIBW.png"></div>
 </div>
 
+</main>
+
+
 </body>
+</html>
